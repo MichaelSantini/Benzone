@@ -1,0 +1,74 @@
+.annonceCard {
+  padding: 0;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: white;
+  overflow: hidden;
+}
+
+.annonceCard h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 15px 0;
+  font-size: 1.2rem;
+}
+
+.annonceCard h3 span {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.annonceCard .pContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.annonceCard .pContainer p {
+  text-align: left;
+}
+
+.annonceCard .pContainer span {
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: #bbbbbb;
+}
+
+.annonceCard img {
+  margin: 0;
+  width: 95%;
+  height: 282px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.annonceCard:hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+#btnSubmitAnnonce {
+  margin: 30px;
+  cursor: pointer;
+  border: none;
+  padding: none;
+  background-color: unset;
+  outline: none;
+}
+/*# sourceMappingURL=card.css.map */

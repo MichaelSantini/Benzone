@@ -1,0 +1,61 @@
+.hero {
+  height: 500px;
+  background: no-repeat center top/contain url(../img/hero.jpg);
+  position: relative;
+  top: 0;
+  background-attachment: fixed;
+}
+
+.heroImg {
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  position: relative;
+  top: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.heroImg:hover {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.heroImg h2 {
+  text-align: right;
+  padding: 150px 0 0 0;
+  margin: 0 200px 0 0;
+  color: white;
+  font-size: 4rem;
+}
+
+.heroImg p {
+  text-align: right;
+  margin: 0 100px 0 0;
+  font-size: 1.5rem;
+  color: #fac31d;
+  font-style: italic;
+}
+
+#mainContainer {
+  width: 100vw;
+}
+
+#mainContainer h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+#mainContainer .cards {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=home.css.map */

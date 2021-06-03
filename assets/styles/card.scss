@@ -1,0 +1,57 @@
+$primaryColor: #fac31d;
+
+.annonceCard {
+  padding: 0;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  //box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  h3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px 0;
+    font-size: 1.2rem;
+    span {
+      font-style: italic;
+      font-size: 1rem;
+    }
+  }
+  .pContainer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    margin: 5px 0;
+    p {
+      text-align: left;
+    }
+    span {
+      font-size: 0.7rem;
+      font-weight: bolder;
+      color: rgb(187, 187, 187);
+    }
+  }
+  img {
+    margin: 0;
+    width: 95%;
+    height: 282px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+  }
+}
+#btnSubmitAnnonce {
+  margin: 30px;
+  cursor: pointer;
+  border: none;
+  padding: none;
+  background-color: unset;
+  outline: none;
+}
